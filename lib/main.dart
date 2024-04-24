@@ -4,8 +4,6 @@ import 'package:toktik_app/config/theme/app.theme.dart';
 import 'package:toktik_app/presentation/providers/discover_provider.dart';
 import 'package:toktik_app/presentation/screens/discover/discover_screen.dart';
 
-//Main
-
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
