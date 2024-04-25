@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toktik_app/presentation/widgets/video/video_gradient_background.dart';
 import 'package:video_player/video_player.dart';
 
 class FullscreenPlayer extends StatefulWidget {
@@ -56,6 +57,7 @@ class _FullscreenPlayerState extends State<FullscreenPlayer> {
               child: Stack(
                 children: [
                   VideoPlayer(controller),
+                  VideoGradientBackground(stops: const [0.8, 1.0],),
                   Positioned(
                       bottom: 50,
                       left: 20,
